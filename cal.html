@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="cal.js"></script>
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="cal.css">
+
+    
+</head>
+<body>
+<h1>
+    Calculator
+</h1>
+ <div class="container">
+    <!-- <i class="fas fa-car">zxc</i> -->
+    <form name="calc">
+  
+     
+    <input id="dis" type="text" name="disp" id="disp"  class="display">
+    
+    <div id="bt">
+        
+        <input id="1"  type="button" name="one" value="1" onclick="calc.disp.value +='1'">
+        <input id="2" type="button" name="one" value="2" onclick="calc.disp.value +='2'">
+        <input id="3"  type="button" name="one" value="3" onclick="calc.disp.value +='3'">
+        <input id="+" type="button" name="one" value="+" onclick="calc.disp.value +='+'">
+        <input id="4" type="button" name="one" value="4" onclick="calc.disp.value +='4'">
+        <input id="5" type="button" name="one" value="5" onclick="calc.disp.value +='5'">
+        <input id="6" type="button" name="one" value="6" onclick="calc.disp.value +='6'">   
+        <input id="-"  type="button" name="one" value="-" onclick="calc.disp.value +='-'">
+        <input id="7"  type="button" name="one" value="7" onclick="calc.disp.value +='7'">
+        <input id="8"  type="button" name="one" value="8" onclick="calc.disp.value +='8'">
+        <input id="9" type="button" name="one" value="9" onclick="calc.disp.value +='9'">      
+        <input id="*" type="button" name="one" value="*" onclick="calc.disp.value +='*'">
+        <input id="d" type="button" name="one" value="." onclick="calc.disp.value +='.'">
+        <input id="0" type="button" name="one" value="0" onclick="calc.disp.value +='0'">
+
+        
+        <button id="cl">clear</button>
+        <input id="/" type="button" name="one" value="/" onclick="calc.disp.value +='/'">
+    </div>
+    <input id="=" class="sub" type="button" name="eq" value="=" onclick="calc.disp.value=eval(calc.disp.value)">
+</form>
+</div>
+
+</div>
+<p>By</p>
+<a href="https://atharvadhuleasd.netlify.com/">Atharva</a>
+</body> 
+</html>
