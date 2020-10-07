@@ -80,7 +80,7 @@ function mul_1(){
     pop++;
     console.log(pop);
     if (pop > 1){
-        alert("asd");
+        alert("invalid inputa");
         e1.value ="";
         
     }
@@ -91,7 +91,7 @@ function div_2(){
     pop++;
     console.log(pop);
     if (pop > 1){
-        alert("asd");
+        alert("invalid input");
         e1.value ="";
         
     }
