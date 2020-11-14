@@ -13,13 +13,21 @@
 
     
 </head>
-<body>
-<h1>
+<body id="body">
+<h1 id="head">
     Calculator
 </h1>
+<div style="display:inline-flex;">
+<img id="sun" src="night.svg" alt="">
+<div id="swi" class="switch">
+    <div onclick="changeMode1()" id="circle" class="circle">
+    </div>
+</div>
+<img id="ni"  src="sun.svg" alt="">
+</div>
  <div class="container">
     <!-- <i class="fas fa-car">zxc</i> -->
-    <form name="calc">
+    <form name="calc" id="a">
   
      
     <input id="dis" type="text" name="disp" id="disp"  class="display">
@@ -45,19 +53,20 @@
         <button id="cl">clear</button>
         <input id="/" type="button" name="one" value="/" onclick="calc.disp.value +='/'">
     </div>
-    <input id="=" class="sub" type="button" name="eq" value="=" onclick="calc.disp.value=eval(calc.disp.value)">
+    <input id="=" class="sub" type="button" name="eq" value="=" onclick="calc.disp.value=eval(calc.disp.value);">
 </form>
 </div>
 
 </div>
-<p>By</p>
-<a href="https://atharvadhuleasd.netlify.com/">Atharva</a>
-    
-    <div id="pro">
+<p id="by">By</p>
+<a id="me" href="https://atharvadhuleasd.netlify.com/   ">Atharva</a>
+
+
+<div id="pro">
     <p class="proin">Chech Out My Uploads</p><br>
-    <a id="link" href="https://atharvadhule.github.io/tic-tac-toe/">Tic Tak Toe Game</a><br>
-    <a id="link" href="https://atharvadhule.github.io/calculator/">Js calculator</a><br>
-    <a id="link" href="https://covid-19asd.netlify.app/">Covid-19 Info Page</a>
+    <a id="link" href="">Tic Tak Toe Game</a><br>
+    <a id="link" href="">Js Bug free calculator</a><br>
+    <a id="link" href="">Covid-19 Info Page</a>
 </div>
 </body> 
 </html>
