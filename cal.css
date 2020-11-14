@@ -10,7 +10,7 @@ body{
 }
 h1{
     color: blue;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 80px;
 
@@ -136,7 +136,6 @@ input:nth-child(16){
     transform: scale(0.85);
     border-radius: 50px;
 }
-
 #pro{
     background-color: black;
     width: 100%;
@@ -153,4 +152,37 @@ input:nth-child(16){
 #link{
     /* color: gray; */
     font-size: 25px;
+}
+.d{
+    margin-bottom: 30px;
+    padding: 10px;
+    /* width: 50px; */
+    background: none;
+    font-size: 20px;
+    border: none;
+    border:black 0px solid;
+    /* border-style: dashed; */
+    background: none; 
+    color: white;
+    background-color:  rgb(0, 140, 255);
+    /* box-shadow: 5px 5px 10px gray;   */
+    border-radius: 10px;
+
+}
+.switch{
+
+    width:80px;
+    height:30px;
+    background-color: lightblue;
+    border-radius: 50px;
+}
+.circle{
+   
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-color: rgb(0, 119, 255);
+    transform: scale(1.2);
+    /* -webkit-transition: 0.5s; */
+    transition: 0.5s;
 }
